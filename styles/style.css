@@ -48,10 +48,6 @@ body {
     justify-content: center;
     gap: 8px;
     position: relative;
-    padding: 6px 12px;
-    border-radius: 12px;
-    background: linear-gradient(135deg, rgba(30, 144, 255, 0.15), rgba(0, 245, 255, 0.08));
-    border: 1.5px solid rgba(0, 245, 255, 0.25);
     transition: all 0.4s cubic-bezier(0.4, 0, 0.2, 1);
     cursor: pointer;
     text-decoration: none;
@@ -87,7 +83,8 @@ body {
     transition: all 0.4s cubic-bezier(0.4, 0, 0.2, 1);
     position: relative;
     z-index: 1;
-    filter: brightness(1) drop-shadow(0 0 8px rgba(0, 245, 255, 0.2));
+    opacity: 0.8;
+    filter: none;
 }
 
 .logo:hover img {
