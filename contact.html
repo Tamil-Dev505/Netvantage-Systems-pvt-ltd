@@ -1,0 +1,286 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <title>Contact | NetVantage Systems Pvt Ltd</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="styles/style.css" />
+    <link rel="stylesheet" href="styles/contact.css" />
+  </head>
+
+  <body>
+    <div class="noise"></div>
+
+    <!-- NAVBAR -->
+    <header class="navbar">
+      <a href="index.html" class="logo"><img src="images/image.png" alt="NetVantage Logo" /></a>
+      <nav class="nav-menu">
+        <ul class="nav-list">
+          <li>
+            <a href="index.html" class="nav-link">Home</a>
+          </li>
+          <li>
+            <a href="about.html" class="nav-link">About</a>
+          </li>
+          <li>
+            <a href="services.html" class="nav-link">Services</a>
+          </li>
+          <li>
+            <a href="support.html" class="nav-link">Support</a>
+          </li>
+          <li>
+            <a href="contact.html" class="nav-link active">Contact</a>
+          </li>
+        </ul>
+      </nav>
+      <a href="contact.html" class="cta-btn">Get In Touch</a>
+      <div class="hamburger">
+        <span class="hamburger-line"></span>
+        <span class="hamburger-line"></span>
+        <span class="hamburger-line"></span>
+      </div>
+    </header>
+
+    <!-- HERO -->
+    <section class="contact-hero">
+      <div class="ring-wrapper">
+        <div class="glass-ring hero-ring main-ring"></div>
+        <div class="glass-ring hero-ring small-ring ring1"></div>
+        <div class="glass-ring hero-ring small-ring ring2"></div>
+        <div class="glass-ring hero-ring small-ring ring3"></div>
+      </div>
+      <div class="particles"></div>
+
+      <div class="hero-content center-align">
+        <h1 class="fade-up">Let's <span class="highlight">Build Together</span></h1>
+        <p class="fade-up delay-1">Have a project in mind? We'd love to hear from you. Let's discuss how we can help transform your infrastructure.</p>
+      </div>
+    </section>
+
+    <!-- CONTACT SECTION -->
+    <section class="contact-section">
+      <div class="contact-container">
+        <!-- Contact Info -->
+        <div class="contact-info fade-up">
+          <h2>Get In Touch</h2>
+
+          <div class="info-item">
+            <div class="info-icon">🏢</div>
+            <div class="info-content">
+              <h3>Corporate Office</h3>
+              <p>
+                <strong>NetVantage Systems Private Limited</strong>
+              </p>
+              <p>
+                Arch Road, 1st Floor<br />144 Co-operative Colony, Perks Rd<br />Uppilipalayam, Coimbatore<br />Tamil Nadu 641015, India
+              </p>
+            </div>
+          </div>
+
+          <div class="info-item">
+            <div class="info-icon">📧</div>
+            <div class="info-content">
+              <h3>Corporate Communications</h3>
+              <p>
+                <strong>Email:</strong> <a href="mailto:enquiries@netvantagesystems.com">enquiries@netvantagesystems.com</a>
+              </p>
+              <p>
+                <small>For corporate inquiries, partnership proposals, or information regarding our subsidiary brands</small>
+              </p>
+            </div>
+          </div>
+
+          <div class="info-item">
+            <div class="info-icon">☎️</div>
+            <div class="info-content">
+              <h3>Direct Support</h3>
+              <p>
+                <strong>Phone:</strong> <a href="tel:+919876543210">+91-9876-543-210</a>
+              </p>
+              <p>
+                <small>Dedicated support team ready to assist you</small>
+              </p>
+            </div>
+          </div>
+
+          <div class="info-item">
+            <div class="info-icon">🕒</div>
+            <div class="info-content">
+              <h3>Business Hours</h3>
+              <p>Monday — Friday: 9:00 AM - 6:00 PM (IST)</p>
+              <p>
+                <small>Saturday & Sunday: Closed</small>
+              </p>
+            </div>
+          </div>
+
+          <div class="info-item">
+            <div class="info-icon">🌟</div>
+            <div class="info-content">
+              <h3>Legacy</h3>
+              <p>Since 1995 • 30+ Years of Excellence</p>
+            </div>
+          </div>
+        </div>
+
+        <!-- Contact Form -->
+        <div class="contact-form-wrapper fade-up delay-1">
+          <form id="contactForm" class="contact-form" method="POST" action="#" novalidate>
+            <div class="form-group">
+              <label for="name">Full Name<span class="required">*</span></label>
+              <input type="text" id="name" name="name" placeholder="Your name" required />
+              <span class="error-message" id="name-error"></span>
+            </div>
+
+            <div class="form-group">
+              <label for="email">Email Address<span class="required">*</span></label>
+              <input type="email" id="email" name="email" placeholder="your@email.com" required />
+              <span class="error-message" id="email-error"></span>
+            </div>
+
+            <div class="form-group">
+              <label for="company">Company Name</label>
+              <input type="text" id="company" name="company" placeholder="Your company" />
+            </div>
+
+            <div class="form-group">
+              <label for="phone">Phone Number</label>
+              <input type="tel" id="phone" name="phone" placeholder="+91-XXXX-XXXX-XX" />
+              <span class="error-message" id="phone-error"></span>
+            </div>
+
+            <div class="form-group">
+              <label for="service">Service Interest<span class="required">*</span></label>
+              <select id="service" name="service" required>
+                <option value="">Select a service</option>
+                <option value="cloud">Cloud Infrastructure</option>
+                <option value="saas">SaaS Product Engineering</option>
+                <option value="governance">Corporate Governance</option>
+                <option value="consulting">Strategic IT Consulting</option>
+                <option value="support">Support & Maintenance</option>
+                <option value="other">Other</option>
+              </select>
+              <span class="error-message" id="service-error"></span>
+            </div>
+
+            <div class="form-group full-width">
+              <label for="message">Message<span class="required">*</span></label>
+              <textarea id="message" name="message" placeholder="Tell us about your project..." rows="6" required></textarea>
+              <span class="error-message" id="message-error"></span>
+            </div>
+
+            <button type="submit" class="btn-primary ripple" id="submit-btn">Send Message →</button>
+            <div class="form-success" style="display: none;" id="form-success">✓ Message sent successfully! We'll get back to you soon.</div>
+          </form>
+        </div>
+      </div>
+    </section>
+
+    <!-- QUICK RESPONSE -->
+    <section class="quick-response">
+      <h2>Why Partner With Us?</h2>
+
+      <div class="response-grid">
+        <div class="response-item fade-up">
+          <div class="response-icon">⚡</div>
+          <h3>Fast Response</h3>
+          <p>We respond to inquiries within 24 hours, providing expert consultation.</p>
+        </div>
+
+        <div class="response-item fade-up delay-1">
+          <div class="response-icon">🏆</div>
+          <h3>30+ Years Experience</h3>
+          <p>Trusted by enterprises globally for infrastructure excellence.</p>
+        </div>
+
+        <div class="response-item fade-up delay-2">
+          <div class="response-icon">🔒</div>
+          <h3>Enterprise Security</h3>
+          <p>Your data and projects are protected with enterprise-grade security.</p>
+        </div>
+
+        <div class="response-item fade-up delay-3">
+          <div class="response-icon">👥</div>
+          <h3>Dedicated Support</h3>
+          <p>A team dedicated to your project success from start to finish.</p>
+        </div>
+      </div>
+    </section>
+
+    <!-- MAP SECTION -->
+    <section class="map-section">
+      <h2>Visit Us</h2>
+      <p>Our office is located in Coimbatore, Tamil Nadu. We'd love to meet you in person.</p>
+
+      <div class="map-container">
+        <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3916.5435678901234!2d76.95606!3d11.01235!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3ba8f6d5b4d4d4d5%3A0x5c5c5c5c!2s144%20Co-operative%20Colony%2C%20Uppilipalayam%2C%20Coimbatore!5e0!3m2!1sen!2sin!4v1234567890123" width="100%" height="500" style="border: 2px solid rgba(0, 245, 255, 0.3); border-radius: 20px; display: block;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+      </div>
+
+      <div class="location-details fade-up">
+        <div class="location-info">
+          <h3>📍 Coimbatore Office</h3>
+          <p>
+            Arch Road, 1st Floor<br />144 Co-operative Colony, Perks Rd<br />Uppilipalayam, Coimbatore<br />Tamil Nadu 641015, India
+          </p>
+        </div>
+      </div>
+    </section>
+
+    <!-- FOOTER -->
+<footer class="footer">
+
+        <div class="footer-bg"></div>
+
+        <div class="footer-container">
+
+            <div class="footer-about">
+                <h3>NetVantage Systems</h3>
+                <p>
+                    Engineering scalable infrastructure and SaaS platforms since 1995.
+                    Delivering enterprise-grade innovation globally.
+                </p>
+            </div>
+
+            <div class="footer-links">
+                <h4>Quick Links</h4>
+                <ul>
+                    <li><a href="index.html">Home</a></li>
+                    <li><a href="services.html">Services</a></li>
+                    <li><a href="support.html">Support</a></li>
+                    <li><a href="contact.html">Contact</a></li>
+                </ul>
+            </div>
+
+            <div class="footer-contact">
+                <h4>📍 Head Office</h4>
+                <p><strong>NetVantage Systems Private Limited</strong></p>
+                <p>Arch Road, 1st Floor<br>
+                    144 Co-operative Colony, Perks Rd<br>
+                    Uppilipalayam, Coimbatore<br>
+                    Tamil Nadu 641015, India</p>
+                <p style="margin-top: 12px;"><strong>Email:</strong> enquiries@netvantagesystems.com</p>
+                <p><strong>Hours:</strong> Mon-Fri, 9:00 AM - 6:00 PM (IST)</p>
+            </div>
+
+        </div>
+
+        <div class="footer-bottom">
+            © 2026 NetVantage Systems Pvt Ltd. All Rights Reserved.
+        </div>
+
+    </footer>
+
+
+    <script src="scripts/script.js"></script>
+
+    <!-- WhatsApp Floating Button -->
+    <a href="https://wa.me/919790012312" class="whatsapp-float" target="_blank">
+
+
+        <img src="https://cdn-icons-png.flaticon.com/512/733/733585.png" alt="WhatsApp">
+    </a>
+
+
+    <script src="scripts/script.js"></script>
+  </body>
+</html>
